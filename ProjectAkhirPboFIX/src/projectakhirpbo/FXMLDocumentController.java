@@ -17,7 +17,6 @@ import javax.swing.JOptionPane;
 
 public class FXMLDocumentController implements Initializable {
     
-    //private text
     @FXML
     private TextField txt_noresi;
 
@@ -132,8 +131,7 @@ public class FXMLDocumentController implements Initializable {
     listM=MySql.getDataJne();
     tabel_jne.setItems(listM);
     }
-    
-    @Override
+   
     public void initialize(URL location, ResourceBundle resources) {
     updatedata();
     }

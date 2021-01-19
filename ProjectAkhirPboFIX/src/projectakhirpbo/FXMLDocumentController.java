@@ -15,10 +15,6 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author muhammad yusuf
- */
 public class FXMLDocumentController implements Initializable {
     
     

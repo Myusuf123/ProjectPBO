@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
 
 public class FXMLDocumentController implements Initializable {
     
-    
+    //private text
     @FXML
     private TextField txt_noresi;
 

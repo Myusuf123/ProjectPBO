@@ -1,4 +1,3 @@
-
 package projectakhirpbo;
 
 import java.net.URL;
@@ -15,6 +14,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javax.swing.JOptionPane;
+
 
 public class FXMLDocumentController implements Initializable {
     
@@ -66,8 +66,8 @@ public class FXMLDocumentController implements Initializable {
     ResultSet rs = null;
     PreparedStatement pst = null;
     
-    public void tambah(){
-        
+    
+    public void tambah(){     
         konek = MySql.ConnectDb();
         String sql = "insert into datajne (noresi,namapenerima,nohp,alamat,jenisbarang)values(?,?,?,?,? )";
         try{

@@ -98,5 +98,4 @@ public class FXMLDocumentController implements Initializable {
     listM=MySql.getDataJne();
     tabel_jne.setItems(listM);
     }
-
 }

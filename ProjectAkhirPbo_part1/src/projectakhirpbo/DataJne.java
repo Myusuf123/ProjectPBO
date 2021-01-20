@@ -21,15 +21,14 @@ String namapenerima;
         this.alamat = alamat;
         this.jenisbarang = jenisbarang;
     }
+ 
 String nohp;
 String alamat,jenisbarang;
 
     public void setNoresi(String noresi) {
         this.noresi = noresi;
     }
-
-
-
+ 
     public void setNohp(String nohp) {
         this.nohp = nohp;
     }
@@ -46,7 +45,6 @@ String alamat,jenisbarang;
         return noresi;
     }
 
-
     public String getNohp() {
         return nohp;
     }
@@ -58,6 +56,4 @@ String alamat,jenisbarang;
     public String getJenisbarang() {
         return jenisbarang;
     }
-
-
 }

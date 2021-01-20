@@ -23,8 +23,8 @@ public class MySql {
             JOptionPane.showMessageDialog(null,e);
             return null;
         }
-        
     }
+    
     public static ObservableList<DataJne>getDataJne(){
         
         Connection konek = ConnectDb();

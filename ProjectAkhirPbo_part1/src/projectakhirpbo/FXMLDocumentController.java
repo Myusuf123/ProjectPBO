@@ -88,7 +88,6 @@ public class FXMLDocumentController implements Initializable {
     }
     
 
-    
     public void initialize(URL location, ResourceBundle resources) {
     no_resi.setCellValueFactory(new PropertyValueFactory<DataJne, Integer>("noresi"));
     nama_penerima.setCellValueFactory(new PropertyValueFactory<DataJne, String>("namapenerima"));

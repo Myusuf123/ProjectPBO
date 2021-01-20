@@ -1,4 +1,3 @@
-
 package projectakhirpbo;
 
 import com.mysql.jdbc.Connection;
@@ -13,8 +12,7 @@ import javafx.collections.ObservableList;
 import javax.swing.JOptionPane;
 
 public class MySql {
-    Connection konek = null;
-    
+    Connection konek = null;   
     public static Connection ConnectDb(){
         try{
             Class.forName("com.mysql.jdbc.Driver");

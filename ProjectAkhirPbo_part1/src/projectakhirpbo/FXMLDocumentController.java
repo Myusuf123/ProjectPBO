@@ -17,9 +17,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javax.swing.JOptionPane;
 
 
-
 public class FXMLDocumentController implements Initializable {
-    
     
     @FXML
     private TextField txt_noresi;

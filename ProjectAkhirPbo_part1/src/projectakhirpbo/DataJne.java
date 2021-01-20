@@ -22,7 +22,6 @@ String namapenerima;
         this.jenisbarang = jenisbarang;
     }
  
- 
 String nohp;
 String alamat,jenisbarang;
 
